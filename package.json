@@ -12,6 +12,7 @@
     "@types/node": "18.7.16",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
+    "@types/request": "^2.48.8",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
     "@upleveled/eslint-config-upleveled": "2.12.7",
@@ -41,5 +42,10 @@
     "eslint-plugin-react": "7.31.8",
     "eslint-plugin-react-hooks": "4.6.0",
     "@typescript-eslint/utils": "5.36.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "log-update": "^5.0.1",
+    "request": "^2.88.2"
   }
 }
